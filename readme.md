@@ -115,7 +115,7 @@ CC0 / Public domain.
 
 キャラクタセット画像は、[EDSCII] に同梱されてる画像と互換性があります。[EDSCII]をダウンロードして解凍後、charフォルダ内の \*.png と \*.char を、charフォルダにコピーすれば、利用できるキャラクタセットを増やせます。
 
-MZ-700のキャラクタセット画像も作ってみました。[mieki256's diary - 2015/12/04](http://keroro/~mieki256/diary/20151204.html#201512041 )から入手できます。
+MZ-700のキャラクタセット画像も作ってみました。[mieki256's diary - 2015/12/04](http://blawat2015.no-ip.com/~mieki256/diary/20151204.html#201512041 )から入手できます。
  
 [EDSCII]:http://vectorpoem.com/edscii/
 
