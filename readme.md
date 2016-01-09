@@ -111,6 +111,10 @@ zipを解凍して任意のフォルダに置いてください。ただし、�
 
 CC0 / Public domain.
 
+exeファイルだけは、Ruby, DXRuby, chunky_png のライセンスに従います。
+
+only exe file is a different license. Because it contains the binary of Ruby and DXRuby and chunky_png.
+(Ruby is Ruby license.DXRuby the zlib / libpng license. Chunky_png the MIT license.)
 
 ## Append data - データの追加について
 
