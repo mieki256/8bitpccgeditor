@@ -13,6 +13,7 @@ ASCII/ANSI art tool, similar to the screen of 8bit PC. It is a Windows-only appl
 
 ## Download
 
+[Releases · mieki256/8bitpccgeditor](https://github.com/mieki256/8bitpccgeditor/releases/ )
 
 ## Usage - 使い方
 
