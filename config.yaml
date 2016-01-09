@@ -1,0 +1,58 @@
+---
+:canvas_width: 40
+:canvas_height: 25
+:scale: 2
+:def_chr_set: pet2015
+:def_pal_set: pet2015
+:chr_idx: 33
+:fnt_name: Arial Bold
+:fnt_size: 16
+:fntl_name: Arial Bold
+:fntl_size: 24
+:fg_color:
+- 255
+- 255
+- 255
+- 255
+:bg_color:
+- 255
+- 0
+- 0
+- 0
+:shortcut:
+- - B
+  - :mode_pen
+- - C
+  - :mode_erase
+- - L
+  - :mode_line
+- - R
+  - :mode_rect
+- - I
+  - :mode_rect_fill
+- - F
+  - :mode_fill
+- - T
+  - :mode_text
+- - Q
+  - :command_dec_size
+- - E
+  - :command_inc_size
+- - 4
+  - :command_dec_scale
+- - 5
+  - :command_inc_scale
+- - G
+  - :command_toggle_grid
+- - X
+  - :command_swap_color
+- - AT
+  - :command_swap_color
+- - 9
+  - :command_cpuload
+- - 1
+  - :command_swap_paint_chr
+- - 2
+  - :command_swap_paint_fg
+- - 3
+  - :command_swap_paint_bg
