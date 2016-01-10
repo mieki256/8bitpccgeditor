@@ -119,7 +119,9 @@ only exe file is a different license. Because it contains the binary of Ruby and
 
 キャラクタセット画像は、[EDSCII] に同梱されてる画像と互換性があります。[EDSCII]をダウンロードして解凍後、charフォルダ内の \*.png と \*.char を、charフォルダにコピーすれば、利用できるキャラクタセットを増やせます。
 
-MZ-700のキャラクタセット画像も作ってみました。[mieki256's diary - 2015/12/04](http://blawat2015.no-ip.com/~mieki256/diary/20151204.html#201512041 )から入手できます。
+MZ-700のキャラクタセット画像も作ってみました。
+[mieki256's diary - 2016/01/10](http://blawat2015.no-ip.com/~mieki256/diary/201601101.html#201601101S4 )
+から入手できます。
  
 [EDSCII]:http://vectorpoem.com/edscii/
 
