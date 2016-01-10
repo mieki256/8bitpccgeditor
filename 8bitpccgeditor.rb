@@ -1,10 +1,10 @@
 #!ruby -Ks
 # -*- mode: ruby; coding: sjis -*-
-# Last updated: <2016/01/10 01:55:33 +0900>
+# Last updated: <2016/01/10 10:16:45 +0900>
 #
 # 8bit PC CG Editor
 #
-# @version 1.0.0
+# @version 1.0.1
 # @author mieki256
 #
 # License: CC0 / Public Domain
@@ -21,7 +21,7 @@ require 'yaml'
 require 'json'
 require 'pp'
 
-$version_str = "1.0.0"
+$version_str = "1.0.1"
 $wdw_title = "8bit PC CG Editor #{$version_str}"
 
 # ----------------------------------------
@@ -102,6 +102,11 @@ class FileAccess
 
   # load resource image
   def self.load_res(src_dir)
+
+    # load window title icon
+    filepath = File.join(src_dir, "res/8bitpccgeditor_16x16.ico")
+    Window.loadIcon(filepath)
+
     dt = [
       {
         :file => "res/toolbar.png", :rows => 11, :columns => 2,
