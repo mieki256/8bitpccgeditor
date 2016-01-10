@@ -1,6 +1,6 @@
 #!ruby -Ks
 # -*- mode: ruby; coding: sjis -*-
-# Last updated: <2016/01/10 10:16:45 +0900>
+# Last updated: <2016/01/10 10:46:04 +0900>
 #
 # 8bit PC CG Editor
 #
@@ -2162,6 +2162,7 @@ end
 def check_push_ctrl_or_shift
   return true if Input.keyDown?(K_LCONTROL) or Input.keyDown?(K_RCONTROL)
   return true if Input.keyDown?(K_LSHIFT) or Input.keyDown?(K_RSHIFT)
+  return true if Input.keyDown?(K_LALT) or Input.keyDown?(K_RALT)
   return false
 end
 
@@ -2263,7 +2264,9 @@ $palsetbar = PaletteSetBar.new
 $popup = PopupMessage.new
 
 Window.loop do
-  break if Input.keyPush?(K_ESCAPE)
+  if Input.keyDown?(K_LALT) or Input.keyDown?(K_RALT)
+    break if Input.keyPush?(K_X)
+  end
 
   $brush_remake = false
 
